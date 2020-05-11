@@ -1,7 +1,7 @@
 {
   "name": "ATL03",
   "version": "002",
-  "dataType": "ATL03",
+  "dataType": "ATLAS/ICESat-2 L2A Global Geolocated Photon Data V002",
   "process": "modis",
   "provider_path": "data/ATL03_test",
   "url_path": "{cmrMetadata.Granule.Collection.ShortName}___{cmrMetadata.Granule.Collection.VersionId}/{substring(file.name, 0, 3)}",
