@@ -41,5 +41,9 @@
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01_BRW\\.cmr\\.xml$",
       "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.cmr.xml"
     }
+  ],
+  "ExcludeBuckets" : [
+     {"BucketContains" : "private"},
+     {"BucketContains" : "Private"}
   ]
 }
