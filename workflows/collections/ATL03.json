@@ -19,27 +19,37 @@
     {
       "bucket": "private",
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01\\.iso\\.xml$",
-      "sampleFileName": "ATL03_20181027045009_04360109_002_01.iso.xml"
+      "sampleFileName": "ATL03_20181027045009_04360109_002_01.iso.xml",
+      "Type": "SCIENCE",
+      "MimeType": "application/x-hdf5"
     },
     {
       "bucket": "private",
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01_BRW\\.h5$",
-      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.h5"
+      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.h5",
+      "Type": "BROWSE",
+      "MimeType": "application/x-hdf5"
     },
     {
       "bucket": "private",
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01_BRW.*\\.jpg$",
-      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.default.default1.jpg"
+      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.default.default1.jpg",
+      "Type": "BROWSE",
+      "MimeType": "image/jpeg"
     },
     {
       "bucket": "private",
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01\\.cmr\\.xml$",
-      "sampleFileName": "ATL03_20181027045009_04360109_002_01.cmr.xml"
+      "sampleFileName": "ATL03_20181027045009_04360109_002_01.cmr.xml",
+      "Type": "METADATA",
+      "MimeType": "text/xml"
     },
     {
       "bucket": "private",
       "regex": "^ATL03_[\\d]{14}_[\\d]{8}_002_01_BRW\\.cmr\\.xml$",
-      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.cmr.xml"
+      "sampleFileName": "ATL03_20181027045009_04360109_002_01_BRW.cmr.xml",
+      "Type": "METADATA",
+      "MimeType": "text/xml"
     }
   ]
 }
